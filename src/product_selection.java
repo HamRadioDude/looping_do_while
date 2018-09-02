@@ -41,7 +41,6 @@ public class product_selection {
             default:
                 System.out.println("ERROR, You did not enter a valid number.");
                 break;
-
         }
     }
 }
