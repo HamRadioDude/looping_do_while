@@ -20,8 +20,8 @@ public class product_selection {
             user_OPTION = user_INPUT.nextInt();
         }
 
-//      while (user_OPTION != 1 && user_OPTION != 2 && user_OPTION != 3 && user_OPTION != 4 && user_OPTION != 5);
-   while (user_OPTION < 1 && user_OPTION > 5);
+   while (user_OPTION != 1 && user_OPTION != 2 && user_OPTION != 3 && user_OPTION != 4 && user_OPTION != 5);
+//   while (user_OPTION < 1 && user_OPTION > 5);
         switch (user_OPTION) {
             case 1:
                 System.out.println("You Chose Dogs.  Dogs are pretty much the best thing ever");
